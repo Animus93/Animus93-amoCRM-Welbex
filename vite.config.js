@@ -1,5 +1,5 @@
 export default {
-    base: '/Peach-test-frontend/',
+    base: '/amoCRM-Welbex/',
     root: 'src',
     build: {
         assets: [

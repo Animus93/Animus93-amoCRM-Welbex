@@ -22,9 +22,9 @@ git add -A
 git commit -m 'deploy'
 
 # if you are deploying to https: //<USERNAME>.github. io
-git push -f gitegithub.com:/Animus93/Peach-test-frontend.git main
+git push -f gitegithub.com:/Animus93/amoCRM-Welbex.git main
 
 # if you are deploying to https: //<USERNAME>. github. io/<REPO>
-git push -f git@github.com:/Animus93/Peach-test-frontend.git main: gh-pages
+git push -f git@github.com:/Animus93/amoCRM-Welbex.git main: gh-pages
 
 cd -

@@ -42,7 +42,7 @@
   }
   .navigation-mobile {
     position: sticky;
-    width: 70vw;
+    width: 99vw;
     min-width: 320px;
     height: 55px;
     background: #1E1E1E;

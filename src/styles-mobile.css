@@ -1,5 +1,7 @@
-@media (max-width: 400px) {
+@media (max-width: 1140px) {
   body {
+    margin: 0;
+    padding: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -7,16 +9,13 @@
   }
   .content {
     all: initial;
-    width: 320px;
+    min-width: 320px;
+    max-width: 400px;
     height: 1115px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* display: grid; */
-    /* grid-template-columns: 320px; */
-    /* grid-template-rows: 79px 445px 559px; */
     background: #1e1e1e;
-    /* position: relative; */
   }
   .decoration {
     display: none;
@@ -98,7 +97,8 @@
   .main {
     all: initial;
     position: relative;
-    width: 320px;
+    min-width: 320px;
+    width: 100vw;
     height: 449px;
     justify-content: center;
     display: grid;
@@ -106,6 +106,7 @@
     grid-template-rows: 40px 134px 89px 61px 73px auto;
     position: relative;
     background-image: url("/img/mobile/bg.svg");
+    background-size: cover;
   }
   .main__title-right {
     display: none;
